@@ -1,0 +1,89 @@
+.jumbotron {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkNfKiovDftm7KD5i3wefA2K2XYvHnU4U4y9hf6ApBfMs59Yq&s");
+    background-size: auto;
+}
+
+.row{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+        align-items: center;
+    -webkit-justify-content: center;
+        justify-content: center;
+}
+
+.col-md-4{
+    margin: 0px;
+}
+
+.jumbotron img{
+    border-radius: 30px;
+}
+
+.jumbotron h2{
+    padding-left: 100px;
+    background: #fffefd;
+    color: black;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+hr.light-100{
+    border-top: 10px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+#services{
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 16px;
+    border-shadow: 0 1px 1px 0 rgba(32, 33, 36, 0.1);
+}
+
+#appointment {
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-shadow: 0 1px 1px 0 rgba(32, 33, 36, 0.1);
+}
+
+#form{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-shadow: 0 1px 1px 0 rgba(32, 33, 36, 0.1);
+    margin: 50px;
+}
+
+#table{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-shadow: 0 1px 1px 0 rgba(32, 33, 36, 0.1);
+    margin: 50px;
+}
+
+.card{
+    text-align: center;
+}
+
+#faq{
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-shadow: 0 1px 1px 0 rgba(32, 33, 36, 0.1);
+}
